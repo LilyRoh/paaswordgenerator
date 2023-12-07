@@ -8,22 +8,29 @@
     --hr-border: #D5D4D8;
     --background-blue: #273549;
   }
+  * {
+    margin: 0;
+    
+}
 
-/* input::-webkit-outer-spin-button,
-input::-webkit-inner-spin-button {
-  -webkit-appearance: none;
-  margin: 0;
-} */
+html {
+    line-height: 1;
+    
+}
+
 body {
     background-color: var(--background-blue);
+    padding:0;
   }
   main {
     /* sizing and spacing */
     width: 90vw;
     max-width: 550px;
-    margin: 5vw auto;
-    padding: 115px 52px;
+    margin: 15px auto;
+    
+    padding:52px;
     border-radius: 5px;
+     
   
     /* content layout */
     display: flex;
@@ -43,8 +50,8 @@ body {
     /* text style */
     font-family: 'Karla', sans-serif;
     font-weight: 800;
-    font-size: 40px;
-    line-height: 40px;
+    font-size: 37px;
+    line-height: 50px;
     letter-spacing: -.01em;
     color: var(--title-text);
   
