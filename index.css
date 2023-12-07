@@ -1,0 +1,114 @@
+:root {
+    --background-black: #1C1C1C;
+    --container-background: #ECFDF5;
+    --green: #10B981;
+    --title-text: #2B283A;
+    --tagline-grey: #6B7280;
+    --password-green: #5DEF92;
+    --hr-border: #D5D4D8;
+    --background-blue: #273549;
+  }
+
+/* input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+} */
+body {
+    background-color: var(--background-blue);
+  }
+  main {
+    /* sizing and spacing */
+    width: 90vw;
+    max-width: 550px;
+    margin: 5vw auto;
+    padding: 115px 52px;
+    border-radius: 5px;
+  
+    /* content layout */
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    gap: 35px;
+  
+    position: relative;
+  
+    /* styling */
+    background-color: var(--container-background);
+  
+    /* text style */
+    font-family: 'Inter', sans-serif;
+  }
+  h1 {
+    /* text style */
+    font-family: 'Karla', sans-serif;
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 40px;
+    letter-spacing: -.01em;
+    color: var(--title-text);
+  
+    /* sizing and spacing */
+    max-width: 354px;
+  }
+  
+h1 span {
+    color: var(--green);
+  }
+input[type="checkbox"] {
+    /* sizing and spacing */
+    height: 20px;
+    width: 20px;
+  
+    /* styling */
+    cursor: pointer;
+    
+  }
+  
+  input[type="checkbox"]:focus {
+    outline: none;
+  }
+  
+  input[type="number"]{
+    height: 20px;
+    width: 30px;
+  }
+  input[type="number"]:focus {
+    outline: none;
+  }
+
+button {
+    /* sizing and spacing */
+    height: 52px;
+    margin: 10px;
+    justify-content: center;
+  
+    /* styling */
+    border: none;
+    border-radius: 6px;
+    background-color: var(--green);
+    cursor: pointer;
+  
+    /* text style */
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 500;
+    color: #FFF;
+    display: inline-block;
+  }
+  
+  button:focus {
+      outline: none;
+  }
+  
+.password-field button{
+    display: flex;
+    width: 255px;
+    padding-top: 15px;
+    float:left;
+    justify-content: center;
+
+    
+    
+    
+}
